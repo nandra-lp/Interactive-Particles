@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+canvas {
+  display: block;
+}
+
+/* Container video is optional */
+#input-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 150px;
+  z-index: 10;
+  opacity: 0.7;
+  transform: scaleX(-1);
+}
+
+#instructions {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-family: sans-serif;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+h3 {
+  margin-top: 0;
+  color: #ff0055;
+}
