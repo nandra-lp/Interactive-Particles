@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Hand Gesture Particles</title>
     <link rel="stylesheet" href="style.css" />
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"></script>
@@ -13,14 +14,23 @@
   </head>
   <body>
     <video id="input-video" style="display: none"></video>
+
     <div id="instructions">
-      <h3>Controls:</h3>
-      <p>👋 <b>Gerakkan Tangan:</b> Putar & Ubah Warna</p>
-      <p>👋 <b>Gerakkan Tangan:</b> Putar & Ubah Warna</p>
-      <p>
-        ✊ <b>Kepalkan Tangan:</b> Ganti Bentuk (Hati, Saturnus, Bunga, dll)
-      </p>
+      <h3>Gesture Controls:</h3>
+      <p>✌️ <b>Dua Jari (Peace):</b> Simbol Peace</p>
+      <p>🫰 <b>Cubit (Finger Heart):</b> Bentuk Hati</p>
+      <p>🖐️ <b>Buka 5 Jari:</b> Teks "NANDRA"</p>
+      <p>✊ <b>Kepal Tangan:</b> Bola (Reset)</p>
+      <hr
+        style="
+          border: 0;
+          border-top: 1px solid rgba(255, 255, 255, 0.3);
+          margin: 8px 0;
+        "
+      />
+      <p>👋 <b>Gerak Tangan:</b> Putar & Ubah Warna</p>
     </div>
-    <script src="main.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
